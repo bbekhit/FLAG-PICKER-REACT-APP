@@ -1,0 +1,36 @@
+.wrapper {
+  margin-top: 50px;
+}
+
+.main-wrapper {
+  height: 200px;
+}
+
+.title {
+  font-size: 50px;
+  color: $blue-color;
+  transform: translate3d(1400px, 0, 0);
+  @include easeOut;
+  &.myAnimate1 {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.sub-title {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  transform: translate3d(-1400px, 0, 0);
+  @include easeOut;
+  &.myAnimate2 {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.first {
+  transform: translate3d(0, 1400px, 0);
+  @include easeOut;
+  &.myAnimate3 {
+    transform: translate3d(0, 0, 0);
+  }
+}

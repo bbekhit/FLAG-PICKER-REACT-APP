@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  background: #83a4d4; /* fallback for old browsers */
+  background: linear-gradient(
+    to top,
+    #83a4d4,
+    #b6fbff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+}
+.step {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.select {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.list-item {
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 0;
+  background: white;
+  &:hover {
+    background: $blue-color;
+    cursor: pointer;
+  }
+}
+.select-bottom {
+  margin: 15px;
+  font-size: 25px;
+}
+.myLink {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $blue-color;
+  font-size: 30px;
+}
+.myLink:hover {
+  text-decoration: none;
+  color: $blue-color;
+  cursor: pointer;
+}

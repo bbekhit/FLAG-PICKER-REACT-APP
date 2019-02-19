@@ -1,0 +1,24 @@
+.input-field input {
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+}
+
+// input::-webkit-input-placeholder {
+//   color: $pink-color;
+//   font-size: 25px;
+// }
+
+.input-field input:focus {
+  outline: none;
+  box-shadow: none;
+}
+// input:active {
+//   background: #c9c1ac;
+//   color: $pink-color;
+//   border: none;
+//   outline: none;
+// }
